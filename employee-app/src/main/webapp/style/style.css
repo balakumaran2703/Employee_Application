@@ -1,0 +1,169 @@
+@charset "ISO-8859-1";
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color:  #039BE5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuche t MS', sans-serif;
+}
+.nav{
+height: 64px;
+
+box-shadow: 0 2px 6px 0 rgb(0 0 0 / 12%), inset 0 -1px 0 0 #dadce0;
+
+display: flex;
+background-color: white;
+}
+
+.nav_div{
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 50%;
+/*      border: 2px solid grey;
+ */}
+
+.nav_ol{
+    display: flex;
+    list-style: none;
+
+}
+.sms{
+    display: flex;
+    align-items: center;
+
+}
+
+.sms_a{
+	text-decoration: none;
+}
+
+#sms {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 55px;
+    background: -webkit-linear-gradient(rgb(0, 255, 225), rgb(0, 34, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 20px;
+  }
+  .nav_ol{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .nav_ol_list{
+    /* border: 2px solid red; */
+    border-radius: 5px;
+    margin: 0px;
+    padding: 15px;
+  }
+.nav links divl{
+ line-height: 35px;
+}
+  .nav_links_div:hover{
+      background-color: #039BE5;
+     color: white;
+}
+.nav_links{
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #039BE5;
+    font-weight: 600;
+}
+/* .nav_links:hover{
+    color: white;
+} */
+.nav_ol_list:hover{
+    background-color: #039BE5;
+    color: white;
+}
+.container h2{
+	text-align: center;
+}
+.container{
+	 border: 3px;
+	width: 80%;
+	padding-bottom: 20px;
+	 margin: 10px auto;
+	 box-shadow: 0 2px 6px 0 rgb(0 0 0 /12%),inset 0 -1px 0 0 rgb(65, 32, 221);
+}
+.container .box{
+	width: 50%;
+	padding: 10px;
+	margin: 100px auto 0px;
+ 	box-shadow: 0 2px 6px 0 rgb(0 0 / 12%),inset 0 -1px 0 0 rgb(65, 32, 221);
+  border: 2px solid grey;	
+ }
+ .field{
+ 	width: 100%;
+	 margin-bottom : 30px;
+ }
+.field_label label{
+	font-size: 20px;
+}
+.field_label sup{
+	color: red;
+}
+.field_label input{
+	width: 100%;
+	height: 40px;
+	color: black;
+	padding: 5px;
+	font-size: 25px;
+	border: solid;
+	border-radius: 5px;
+	border-color: #dedede;
+}
+.field input input:focus{
+	 outline-color: #9e9e9e;
+}
+.field input submit{
+	width: 208;
+	margin: Opx auto;
+}
+.field input_submit input[type='submit']{
+	width: 1008;
+	height: 40px;
+	font-size: 25px;
+	border: solid;
+	border-radius: 5px;
+	border-color: #dedede;
+}
+.area h1{
+	color:black;
+	text-align:center;
+	font-size: 25px;
+	height: 40px;
+	position:relative; left:50px; top:200px;
+}
+.box.form_box{
+	border: 2px soild grey;
+    background-color: whitesmoke;
+
+}
+.tab{
+    display: flex;
+
+
+}
+.tab {
+    DISPLAY: flex;
+/*     ALIGN-ITEMS: center; */
+    JUSTIFY-CONTENT: center;
+    border:none;
+    
+
+}
+td,th{
+height: 45px;
+width: 150px;
+padding-left: 5px;
+
+}
+h2{
+	display:flex;
+	color:navy;
+	JUSTIFY-CONTENT: center;
+	text-align: center;
+}
+.table1{
+margin-top: 50px}
